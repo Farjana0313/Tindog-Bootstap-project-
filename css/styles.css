@@ -1,11 +1,11 @@
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat";
   font-weight: bold;
-  line-height: 1.5;
 }
 
 p {
@@ -25,13 +25,19 @@ p {
   line-height: 1.5;
 }
 
-#title {
-  color: #fff;
-  background-color: #ff4c68;
+/* Container */
+.container-fluid {
+  padding: 7% 15%;
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
+/* Sections */
+.colorSection {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.whiteSection {
+  background-color: #fff;
 }
 
 /* navigation Bar */
@@ -60,6 +66,12 @@ p {
   margin: 5% 3% 5% 0;
 }
 
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
 /* Title Image */
 .title-image {
   transform: rotate(25deg);
@@ -70,8 +82,6 @@ p {
 
 /* Features */
 #features {
-  padding: 7% 15%;
-  background-color: #fff;
   position: relative;
   z-index: 1;
 }
@@ -81,7 +91,6 @@ p {
 }
 
 .featuresBox {
-  text-align: center;
   padding: 5%;
 }
 
@@ -96,9 +105,7 @@ p {
 
 /* Testimonials Section */
 #testimonials {
-  text-align: center;
   background: #ef8172;
-  color: #fff;
 }
 
 .testimonialImage {
@@ -112,13 +119,8 @@ p {
   line-height: 1.5;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 #press {
   background: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -130,7 +132,6 @@ p {
 /* Pricing Section */
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricingColum {
@@ -142,27 +143,7 @@ p {
   line-height: 1.5;
 }
 
-/* CTA Section */
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-  padding: 7% 15%;
-  text-align: center;
-}
-
-.ctaHeading {
-  font-family: "Montserrat";
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
 /* Footer Section */
-#footer {
-  padding: 7% 15%;
-  text-align: center;
-}
-
 .socialIcon {
   margin: 20px 10px;
 }
